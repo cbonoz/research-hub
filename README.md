@@ -1,0 +1,21 @@
+
+<p align='center'>
+  <img src="./img/logo_sq.png" width=200/>
+</p>
+
+### ResearchHub
+
+A data sharing platform for research scientists, powered by Ocean Protocol.
+
+<h1 align="center">Commons</h1>
+
+## Running the project
+
+```bash
+npm install
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the client in the browser. 
+
+Based of the 'commons' ocean open data set network.

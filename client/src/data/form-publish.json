@@ -1,0 +1,128 @@
+{
+	"steps": [
+		{
+			"title": "Basic Info",
+			"description": "Start by adding a title for your paper.",
+			"fields": {
+				"name": {
+					"label": "Title",
+					"placeholder": "e.g. Data mining applications in healthcare",
+					"type": "text",
+					"required": true,
+					"help": "Enter the research title. Additional information can be added in the next step."
+				},
+				"files": {
+					"label": "Files",
+					"placeholder": "e.g. https://file.com/file.json",
+					"type": "text",
+					"required": true,
+					"help": "Provide one or multiple urls to the research paper, including data used if possible."
+				}
+			}
+		},
+		{
+			"title": "Category",
+			"description": "Further describe and categorize your data set to help people discover it.",
+			"fields": {
+				"description": {
+					"label": "Description",
+					"help": "Add a thorough description with as much detail as possible.",
+					"placeholder": "e.g. This article explores data mining applications in healthcare, and major areas such as treatment effectiveness, management of healthcare, customer relationship management, and the detection of fraud and abuse.",
+					"type": "textarea",
+					"required": true,
+					"rows": 5
+				},
+				"categories": {
+					"label": "Category",
+					"help": "Pick a category which best fits your data set.",
+					"type": "select",
+					"required": true,
+					"options": [
+						"Image Recognition",
+						"Dataset Of Datasets",
+						"Language",
+						"Performing Arts",
+						"Visual Arts & Design",
+						"Philosophy",
+						"History",
+						"Theology",
+						"Anthropology & Archeology",
+						"Sociology",
+						"Psychology",
+						"Politics",
+						"Interdisciplinary",
+						"Economics & Finance",
+						"Demography",
+						"Biology",
+						"Chemistry",
+						"Physics & Energy",
+						"Earth & Climate",
+						"Space & Astronomy",
+						"Mathematics",
+						"Computer Technology",
+						"Engineering",
+						"Agriculture & Bio Engineering",
+						"Transportation",
+						"Urban Planning",
+						"Health & Medicine",
+						"Business & Management",
+						"Sports & Recreation",
+						"Communication & Journalism",
+						"Deep Learning",
+						"Law",
+						"Other"
+					]
+				},
+				"dateCreated": {
+					"label": "Publication Date",
+					"help": "Select the publication date for the paper.",
+					"type": "date",
+					"required": true
+				}
+			}
+		},
+		{
+			"title": "Authors",
+			"description": "Who wrote the paper?",
+			"fields": {
+				"author": {
+					"label": "Author",
+					"placeholder": "e.g. John Doe",
+					"type": "text",
+					"required": true
+				},
+				"copyrightHolder": {
+					"label": "Copyright Holder",
+					"placeholder": "e.g. Marine Institute",
+					"type": "text",
+					"required": true
+				},
+				"license": {
+					"label": "License",
+					"type": "select",
+					"required": true,
+					"options": [
+						"Public Domain",
+						"PDDL: Public Domain Dedication and License",
+						"ODC-By: Attribution License",
+						"ODC-ODbL: Open Database License",
+						"CDLA-Sharing: Community Data License Agreement",
+						"CDLA-Permissive: Community Data License Agreement",
+						"CC0: Public Domain Dedication",
+						"CC BY: Attribution 4.0 International",
+						"CC BY-SA: Attribution-ShareAlike 4.0 International",
+						"CC BY-ND: Attribution-NoDerivatives 4.0 International",
+						"CC BY-NC: Attribution-NonCommercial 4.0 International",
+						"CC BY-NC-SA: Attribution-NonCommercial-ShareAlike 4.0 International",
+						"CC BY-NC-ND: Attribution-NonCommercial-NoDerivatives 4.0 International"
+					]
+				}
+			}
+		},
+		{
+			"title": "Register",
+			"description": "Last step is to upload the study!",
+			"content": "After clicking the button below you will be asked by your Ocean wallet to sign this request. Once published, your research will be available for download on the ResearchHub marketplace."
+		}
+	]
+}
