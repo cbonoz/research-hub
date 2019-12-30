@@ -7,8 +7,6 @@
 
 A data sharing platform for research scientists, powered by Ocean Protocol.
 
-<h1 align="center">Commons</h1>
-
 ## Running the project
 
 ```bash
