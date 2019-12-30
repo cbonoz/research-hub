@@ -1,6 +1,6 @@
 {
 	"name": "research-hub",
-	"description": "Research hub is a place to discover and share research",
+	"description": "Research hub is a place to discover and share academic research",
 	"version": "1.0.0",
 	"license": "Apache-2.0",
 	"scripts": {
