@@ -16,17 +16,14 @@ $red: #d80606;
 $orange: #b35f36;
 $yellow: #eac146;
 
-$brand-gradient: linear-gradient(to right bottom, $brand-purple, $brand-pink);
+$brand-gradient: linear-gradient(to right bottom, $brand-black, $brand-black);
 
 $body-background: darken($brand-white, 1%);
 
 // Fonts
-$font-family-base: 'Sharp Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Helvetica, Arial, sans-serif;
-$font-family-title: 'Sharp Sans Display', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Helvetica, Arial, sans-serif;
-$font-family-monospace: 'Fira Code', 'Fira Mono', Menlo, Monaco, Consolas,
-    'Courier New', monospace;
+$font-family-base: 'Sharp Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+$font-family-title: 'Sharp Sans Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+$font-family-monospace: 'Fira Code', 'Fira Mono', Menlo, Monaco, Consolas, 'Courier New', monospace;
 
 $font-size-root: 16px;
 $font-size-base: 1rem;

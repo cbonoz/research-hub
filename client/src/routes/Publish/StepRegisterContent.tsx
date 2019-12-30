@@ -49,17 +49,17 @@ export default class StepRegisterContent extends PureComponent<
         </div>
     )
 
-    public publishedState = () => (
-        <div className={styles.success}>
-            <p>Your asset is published!</p>
+    public publishedState = () => {
+        return (<div className={styles.success}>
+            <p>Your research paper is published!</p>
             <Button link to={'/asset/' + this.props.state.publishedDid}>
-                See published asset
+                See published research paper
             </Button>
             <Button link onClick={() => this.props.toStart()}>
-                Publish another asset
+                Publish another research paper
             </Button>
-        </div>
-    )
+        </div>)
+    }
 
     public render() {
         return (
