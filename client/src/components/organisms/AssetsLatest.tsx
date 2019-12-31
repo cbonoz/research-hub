@@ -53,7 +53,7 @@ export default class AssetsLatest extends PureComponent<{}, AssetsLatestState> {
 
         return (
             <>
-                <h2 className={styles.title}>Latest published assets</h2>
+                <h2 className={styles.title}>Latest research papers</h2>
                 <div className={styles.latestAssetsWrap}>
                     {isLoadingLatest ? (
                         <Spinner message="Loading..." />

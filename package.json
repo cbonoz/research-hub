@@ -5,11 +5,11 @@
 	"license": "Apache-2.0",
 	"scripts": {
 		"install": "./scripts/install.sh",
-		"start": "concurrently \"cd client && npm start\" \"cd server && npm start\"",
+		"start": "cd client && npm start",
 		"build": "./scripts/build.sh",
 		"test": "npm run lint && scripts/test.sh && npm run test:e2e",
 		"test:e2e": "start-test start http-get://localhost:3000 cypress:run",
-		"test:watch": "npm run lint && concurrently \"cd client && npm run test:watch\" \"cd server && npm run test:watch\"",
+		"test:watch": "npm run lint && cd client && npm run test:watch",
 		"format:js": "prettier --parser typescript --write '**/*.{js,jsx,ts,tsx}'",
 		"format:css": "prettier-stylelint --ignore-path .gitignore --write --quiet '**/*.{css,scss}'",
 		"format": "npm run format:js && npm run format:css",

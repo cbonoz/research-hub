@@ -69,7 +69,7 @@ export default class AssetsUser extends PureComponent<
             <div className={styles.assetsUser}>
                 {this.props.recent && (
                     <h2 className={styles.subTitle}>
-                        Your Latest Published Data Sets
+                        Your latest published papers
                     </h2>
                 )}
 
