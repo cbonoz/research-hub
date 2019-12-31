@@ -17,7 +17,7 @@
 		"lint:js": "eslint --ignore-path .gitignore --ignore-path .prettierignore --ext .ts,.tsx .",
 		"lint:fix": "eslint --fix --ignore-path .gitignore --ignore-path .prettierignore --ext .ts,.tsx .",
 		"lint": "npm run lint:js && npm run lint:css",
-		"release": "release-it --non-interactive",
+		"release": "release-it --non-interactive"
 	},
 	"dependencies": {},
 	"devDependencies": {
