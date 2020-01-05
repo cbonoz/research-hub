@@ -2,7 +2,7 @@
 	"steps": [
 		{
 			"title": "Basic Info",
-			"description": "Start by adding a title for your paper.",
+			"description": "Start by adding a title for the uplaoded paper.",
 			"fields": {
 				"name": {
 					"label": "Title",

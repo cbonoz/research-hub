@@ -22,7 +22,7 @@ RUN npm run build
 
 # Default ENV values
 ENV LISTEN_ADDRESS='0.0.0.0'
-ENV LISTEN_PORT='3000'
+ENV LISTEN_PORT='3001'
 
 ENTRYPOINT ["/app/frontend/scripts/docker-entrypoint.sh"]
 
