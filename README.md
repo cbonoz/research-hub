@@ -34,3 +34,4 @@ Roughly based off the 'commons' ocean open data set network.
 * Create dynamic cost/ocean fees depending on the particular upload. Fees can be set by uploader.
 * Add user accounts and profile tracking.
 * Accelerate development by enabling researcher to share and combine data sets in semi-private channels (i.e. not completely public).
+* Enable academics across institutions to critique and comment on other work in an open format.
