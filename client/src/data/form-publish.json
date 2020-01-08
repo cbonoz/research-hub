@@ -2,7 +2,7 @@
 	"steps": [
 		{
 			"title": "Basic Info",
-			"description": "Start by adding a title for the uplaoded paper.",
+			"description": "Start by adding a title for the paper.",
 			"fields": {
 				"name": {
 					"label": "Title",
@@ -21,8 +21,8 @@
 			}
 		},
 		{
-			"title": "Category",
-			"description": "Further describe and categorize your data set to help people discover it.",
+			"title": "Description",
+			"description": "Further describe and categorize your research paper to help people discover it.",
 			"fields": {
 				"description": {
 					"label": "Description",
@@ -31,47 +31,6 @@
 					"type": "textarea",
 					"required": true,
 					"rows": 5
-				},
-				"categories": {
-					"label": "Category",
-					"help": "Pick a category which best fits your data set.",
-					"type": "select",
-					"required": true,
-					"options": [
-						"Image Recognition",
-						"Dataset Of Datasets",
-						"Language",
-						"Performing Arts",
-						"Visual Arts & Design",
-						"Philosophy",
-						"History",
-						"Theology",
-						"Anthropology & Archeology",
-						"Sociology",
-						"Psychology",
-						"Politics",
-						"Interdisciplinary",
-						"Economics & Finance",
-						"Demography",
-						"Biology",
-						"Chemistry",
-						"Physics & Energy",
-						"Earth & Climate",
-						"Space & Astronomy",
-						"Mathematics",
-						"Computer Technology",
-						"Engineering",
-						"Agriculture & Bio Engineering",
-						"Transportation",
-						"Urban Planning",
-						"Health & Medicine",
-						"Business & Management",
-						"Sports & Recreation",
-						"Communication & Journalism",
-						"Deep Learning",
-						"Law",
-						"Other"
-					]
 				},
 				"dateCreated": {
 					"label": "Publication Date",

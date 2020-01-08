@@ -71,7 +71,6 @@ class Publish extends Component<{}, PublishState> {
 			1: { name: false, files: false, allFieldsValid: false },
 			2: {
 				description: false,
-				categories: false,
 				allFieldsValid: false
 			},
 			3: {
@@ -197,7 +196,7 @@ class Publish extends Component<{}, PublishState> {
 		//
 		// Step 2
 		//
-		if (validationStatus[2].description && validationStatus[2].categories) {
+		if (validationStatus[2].description) {
 			this.setState((prevState) => ({
 				validationStatus: {
 					...prevState.validationStatus,
@@ -281,7 +280,7 @@ class Publish extends Component<{}, PublishState> {
 			additionalInformation: Object.assign(AssetModel.additionalInformation, {
 				description: this.state.description,
 				copyrightHolder: this.state.copyrightHolder,
-				categories: [ this.state.categories ]
+				categories: [ 'Research' ] // this.state.categories
 			})
 		};
 

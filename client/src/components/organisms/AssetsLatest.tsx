@@ -30,7 +30,7 @@ export default class AssetsLatest extends PureComponent<{}, AssetsLatestState> {
         const searchQuery = {
             offset: 15,
             page: 1,
-            query: {},
+            query: {categories: ['Research']},
             sort: {
                 created: -1
             }
@@ -68,7 +68,7 @@ export default class AssetsLatest extends PureComponent<{}, AssetsLatestState> {
                             ))}
                         </div>
                     ) : (
-                        <div>No data sets found.</div>
+                        <div>No research papers found.</div>
                     )}
                 </div>
             </>

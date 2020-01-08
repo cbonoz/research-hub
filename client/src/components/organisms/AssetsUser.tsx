@@ -89,14 +89,14 @@ export default class AssetsUser extends PureComponent<
                             ))}
                         {recent && (
                             <Link className={styles.link} to="/history">
-                                All Data Sets
+                                All Research Papers
                             </Link>
                         )}
                     </>
                 ) : (
                     <div className={styles.empty}>
-                        <p>No Data Sets Yet.</p>
-                        <Link to="/publish">+ Publish A Data Set</Link>
+                        <p>No Research Papers Yet.</p>
+                        <Link to="/publish">+ Publish A Research Paper</Link>
                     </div>
                 )}
             </div>

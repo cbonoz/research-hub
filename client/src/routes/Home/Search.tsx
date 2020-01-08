@@ -30,7 +30,7 @@ export default class Search extends PureComponent<SearchProps, SearchState> {
 				<Input
 					type="search"
 					name="search"
-					label="Search for data sets"
+					label="Search for research papers"
 					placeholder="e.g. Data mining in healthcare"
 					value={search}
 					onChange={this.inputChange}
