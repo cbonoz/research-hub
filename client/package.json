@@ -75,8 +75,17 @@
 		"type": "git",
 		"url": "https://github.com/oceanprotocol/commons"
 	},
-	"browserslist": [ ">0.2%", "not dead", "not ie <= 11", "not op_mini all" ],
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
 	"jest": {
-		"collectCoverageFrom": [ "src/**/*.{ts,tsx}", "!src/serviceWorker.ts", "!src/**/*.d.ts" ]
+		"collectCoverageFrom": [
+			"src/**/*.{ts,tsx}",
+			"!src/serviceWorker.ts",
+			"!src/**/*.d.ts"
+		]
 	}
 }
